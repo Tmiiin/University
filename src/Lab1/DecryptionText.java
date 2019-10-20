@@ -6,6 +6,7 @@ import java.util.*;
 
 class DecryptionText {
     private final static int timesToRefresh = 2000;
+    private final static String textFileToRead = "wapAndPeace.txt";
     private static String TEXT_FILE_NAME = "";
     private static String ENCRYPTION_TEXT_FILE = "";
     private static TextAnalyzer thisText;
@@ -54,6 +55,6 @@ class DecryptionText {
     }
 
     private static void initializeDefaultBigrammsFrequency() {
-        new BigrammsFromText("wapAndPeace.txt");
+        new BigrammsFromText(textFileToRead);
     }
 }
