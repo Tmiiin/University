@@ -1,4 +1,4 @@
-package Lab1;
+package GeneticalAlgorithm;
 
 import java.io.*;
 
